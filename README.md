@@ -26,4 +26,7 @@ The project also has different pipelines for data ingestion, transformation, mod
 6. Running the Flask App
    `python app.py`
 
+7. Running the Streamlit App
+   `streamlit run application.py`
+
 
