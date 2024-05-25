@@ -2,6 +2,7 @@ import sys
 import pandas as pd
 from src.exceptions import CustomException
 from src.utils import load_object
+import os
 
 
 class PredictPipeline:
@@ -26,7 +27,6 @@ class PredictPipeline:
 
 
 class CustomData:
-
     def __init__(  self,
         gender: str,
         race_ethnicity: str,
@@ -66,6 +66,3 @@ class CustomData:
 
         except Exception as e:
             raise CustomException(e, sys)
-
-
-
