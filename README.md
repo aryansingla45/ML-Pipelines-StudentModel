@@ -1,3 +1,5 @@
+[![Build App](https://github.com/aryansingla45/ML-Pipelines-StudentModel/actions/workflows/main.yml/badge.svg)](https://github.com/aryansingla45/ML-Pipelines-StudentModel/actions/workflows/main.yml)
+
 # ML-Pipelines-StudentModel
 
 This project is used for hosting a web app using flask to predict a student math score using different details.
