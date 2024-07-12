@@ -38,7 +38,6 @@ class ModelTrainer:
 
             models={
                 'RandomForest': RandomForestRegressor(),
-                'DecisionTree': DecisionTreeRegressor(),
                 'GradientBoosting': GradientBoostingRegressor(),
                 'AdaBoost': AdaBoostRegressor(),
                 'XGBoost': XGBRegressor(),
